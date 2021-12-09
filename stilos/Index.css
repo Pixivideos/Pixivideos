@@ -4,7 +4,7 @@ body{
 
 @font-face {
   font-family: dogica;
-  src: url(file:///C:/Users/celeron/Google%20Drive/Jeremy/web/Pixivideos/Fuentes/dogica.ttf);
+  src: url(../Fuentes/dogica.ttf);
 }
 
 #fuente{
