@@ -89,8 +89,8 @@ body{
     background: rgba(0, 0, 44, 0.808);
     position: fixed;
     z-index: 99;
-    width: 1000px;
-    height: 1000px;
+    width: 1000cm;
+    height: 1000cm;
     top: 0;
     left: 0;
 }
