@@ -2,9 +2,15 @@ body{
   background-color:#FFBD92;
 }
 
+.logo{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
 @font-face {
   font-family: dogica;
-  src: url(../Fuentes/dogica.ttf);
+  src: url(file:///C:/Users/celeron/Google%20Drive/Jeremy/web/Pixivideos/Fuentes/dogica.ttf);
 }
 
 #fuente{
@@ -35,31 +41,6 @@ body{
 
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #FFE16C;
-    align-content: center;
-    text-align: center;
-    border-radius: 5px;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    vertical-align: middle;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: dogica;
-    border-radius: 7px;
-    color: #46C16B;
-}
-
 .Videos{
   padding-top: 5px;
 }
@@ -81,7 +62,34 @@ li a {
   background-color: #D3FF6C;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 7px 8px;
+  overflow: hidden;
+  background-color: #FFE16C;
+  align-content: center;
+  text-align: center;
+  border-radius: 5px;
+  line-height:20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-family: dogica;
+  border-radius: 7px;
+  color: #46C16B;
+}
+
+
 li a:hover:not(.active) {
+    transition: 0.5s;
     background-color: #D3FF6C;
 }
 
@@ -100,4 +108,10 @@ li a:hover:not(.active) {
   font-family: 'Josefin Sans', sans-serif;
   vertical-align: baseline;
   padding-top: 100px;
+}
+
+::selection{
+  background-color:crimson;
+  color: #FFBD92;
+  text-shadow: rgb(255, 64, 102);
 }
