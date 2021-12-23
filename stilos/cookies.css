@@ -23,25 +23,12 @@ padding: 10em;
 	padding: 2em
 }
 
-body{
-    background-color: rgb(255, 255, 255);
-}
-
 * { 
     padding: 0;
     margin:0;
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: dogica;
-    src: url(/Fuentes/dogica.ttf);
-  }
-  
-  #fuente{
-    font-family: dogica;
-  }
-  
 
 .avisos-cookies {
     display: none;
