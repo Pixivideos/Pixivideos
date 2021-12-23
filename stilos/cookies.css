@@ -1,0 +1,24 @@
+@font-face {
+  font-family: dogica;
+  src: url(/Fuentes/dogica.ttf);
+}
+
+#fuente{
+  font-family: dogica;
+}
+
+	main{
+text-align: center;
+font-family: dogica;
+padding: 10em;
+}
+
+.volver{
+	background-color: : #fff;
+	color: #0000;
+	font-size: 30px;
+	font-family: dogica;
+	border-radius: 5px;
+	border: none;
+	padding: 2em
+}
