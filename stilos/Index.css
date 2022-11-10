@@ -172,7 +172,7 @@ display: flex;
 }
 
 .Instagram{
-  background:linear-gradient(top, red, gold);
+  background-color:linear-gradient(red, gold);
 
   width: calc(180px + 500px);
   height: calc(230px + 10px);
